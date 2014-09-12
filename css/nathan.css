@@ -189,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,cursive;
     color: #006600;
 }
 
@@ -276,12 +276,16 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    position:absolute;
 
-
+    position:fixed;
+    padding:0;
+    margin:0;
 
     width: 100%;
     height: 100%;
+
+    z-index: -1;
+
 
     text-align: center;
     color: #fff;
@@ -293,7 +297,9 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
+
 
 header .intro-text {
     padding-top: 100px;
@@ -343,9 +349,23 @@ header .intro-text .intro-heading {
     }
 }
 
+.everything {
+
+    background-color: #ffffff;
+}
+
+@percent: 1;
+@height: `Math.round( screen.height * @{percent})`;
+
+.padding {
+    padding-top: 1000px;
+
+}
 
 .projects {
     padding-top: 100px;
+    padding-bottom: 500px;
+    background-color: #ffffff;
 }
 
 .about {
