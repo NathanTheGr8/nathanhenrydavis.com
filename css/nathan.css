@@ -1,3 +1,9 @@
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 
 body {
     overflow-x: hidden;
@@ -330,40 +336,33 @@ header .intro-text .intro-heading {
     }
 }
 
-section {
-    padding: 100px 0;
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
-
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
-}
 
 
 
 .about {
     padding-top: 100px;
+}
+.about-text {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    color: #999999;
+}
+
+
+.contact{
+    background-color: #000000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contact-text {
+    color: #999999;
+}
+
+.contact-text-heading {
+
 }
 
 footer {
@@ -399,7 +398,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #CCCCCC;
+    background-color: #999999;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
