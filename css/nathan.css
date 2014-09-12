@@ -276,6 +276,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    position:absolute;
+
+
+
+    width: 100%;
+    height: 100%;
+
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -337,10 +344,13 @@ header .intro-text .intro-heading {
 }
 
 
-
+.projects {
+    padding-top: 100px;
+}
 
 .about {
     padding-top: 100px;
+    background-color: #F5F4F4";
 }
 .about-text {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
