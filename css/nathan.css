@@ -1,0 +1,106 @@
+
+.navbar-nathan {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-nathan .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #006600;
+}
+
+.navbar-nathan .navbar-brand:hover,
+.navbar-nathan .navbar-brand:focus,
+.navbar-nathan .navbar-brand:active,
+.navbar-nathan .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-nathan .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-nathan .navbar-toggle {
+    border-color: #006600;
+    background-color: #006600;
+}
+
+.navbar-nathan .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-nathan .navbar-toggle:hover,
+.navbar-nathan .navbar-toggle:focus {
+    background-color: #006600;
+}
+
+.navbar-nathan .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-nathan .nav li a:hover,
+.navbar-nathan .nav li a:focus {
+    outline: 0;
+    color: #006600;
+}
+
+.navbar-nathan .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #006600;
+}
+
+.navbar-nathan .navbar-nav>.active>a:hover,
+.navbar-nathan .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-nathan {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-nathan .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-nathan .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-nathan.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-nathan.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../Pictures/binary.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
