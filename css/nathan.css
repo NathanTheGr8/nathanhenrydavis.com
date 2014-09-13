@@ -185,12 +185,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #CCCCCC;
+    background-color: #000000;
 }
 
 .navbar-default .navbar-brand {
     font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,cursive;
-    color: #006600;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -267,7 +267,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #CCCCCC;
+        background-color: #000000;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
