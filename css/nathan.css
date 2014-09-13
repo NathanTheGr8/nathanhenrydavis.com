@@ -362,20 +362,31 @@ header .intro-text .intro-heading {
 
 }
 
-.projects {
+
+projects {
     padding-top: 100px;
     padding-bottom: 500px;
     background-color: #ffffff;
 
 }
 
-.projects-images {
+projects .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+projects .images {
     width: 300px;
     height: 300px;
     border: 7px solid #f1f1f1;
     text-align: center;
     color: #fff;
     background-color: #006600;
+}
+
+projects .title{
+    padding-bottom: 20px;
+    text: #006600;
+
 }
 .about {
     padding-top: 100px;
@@ -406,6 +417,17 @@ header .intro-text .intro-heading {
 
 }
 
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+}
+
+.line-padding{
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 footer {
     padding: 25px 0;
     text-align: center;

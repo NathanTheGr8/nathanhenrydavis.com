@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa56550a-d9e0-4228-9591-173acf5a7360" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/nathan.css" afterPath="$PROJECT_DIR$/css/nathan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nathanhenrydavis.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6923077" vertical-offset="2082" max-vertical-offset="3150">
-              <caret line="158" column="38" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.5722071" vertical-offset="1410" max-vertical-offset="3300">
+              <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nathan.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nathan.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/nathan.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3916991" vertical-offset="3733" max-vertical-offset="7305">
-              <caret line="269" column="33" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="33" />
+            <state vertical-scroll-proportion="-68.65385" vertical-offset="3900" max-vertical-offset="7635">
+              <caret line="379" column="19" selection-start-line="379" selection-start-column="19" selection-end-line="379" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -64,8 +69,8 @@
         <option value="$PROJECT_DIR$/js/cbpAnimatedHeader.js" />
         <option value="$PROJECT_DIR$/js/jquery-1.11.0.js" />
         <option value="$PROJECT_DIR$/css/agency.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/nathan.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -268,7 +273,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1293" max-vertical-offset="3105">
           <caret line="118" column="36" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -325,19 +332,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/nathan.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6923077" vertical-offset="2082" max-vertical-offset="3150">
-          <caret line="158" column="38" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
+        <state vertical-scroll-proportion="-68.65385" vertical-offset="3900" max-vertical-offset="7635">
+          <caret line="379" column="19" selection-start-line="379" selection-start-column="19" selection-end-line="379" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/nathan.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3916991" vertical-offset="3733" max-vertical-offset="7305">
-          <caret line="269" column="33" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="0.5722071" vertical-offset="1410" max-vertical-offset="3300">
+          <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
