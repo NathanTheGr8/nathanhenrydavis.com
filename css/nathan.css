@@ -358,7 +358,7 @@ header .intro-text .intro-heading {
 @height: `Math.round( screen.height * @{percent})`;
 
 .padding {
-    padding-top: 300px;
+    padding-top: 600px;
 
 }
 
