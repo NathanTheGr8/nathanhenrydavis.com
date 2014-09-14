@@ -290,7 +290,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../Pictures/binaryGreen.JPG);
+    background-image: url(../Pictures/Cover.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -381,10 +381,10 @@ header .intro-text .intro-heading {
     margin-right: auto;
     width: 300px;
     height: 300px;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #d3edd3;
     text-align: center;
     color: #fff;
-    background-color: #006600;
+
 }
 .projects-pad {
     background-color: #ffffff;
@@ -598,5 +598,5 @@ body {
 
 .fade:hover {
     opacity: 0.5;
-    
+
 }

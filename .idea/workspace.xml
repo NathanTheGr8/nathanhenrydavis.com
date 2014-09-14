@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa56550a-d9e0-4228-9591-173acf5a7360" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/nathan.css" afterPath="$PROJECT_DIR$/css/nathan.css" />
     </list>
     <ignored path="nathanhenrydavis.com.iws" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="nathan.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/nathan.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7315176" vertical-offset="6894" max-vertical-offset="9105">
-              <caret line="600" column="4" selection-start-line="600" selection-start-column="4" selection-end-line="600" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.51361865" vertical-offset="3984" max-vertical-offset="9105">
+              <caret line="292" column="47" selection-start-line="292" selection-start-column="47" selection-end-line="292" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -341,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/nathan.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7315176" vertical-offset="6894" max-vertical-offset="9105">
-          <caret line="600" column="4" selection-start-line="600" selection-start-column="4" selection-end-line="600" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.51361865" vertical-offset="3984" max-vertical-offset="9105">
+          <caret line="292" column="47" selection-start-line="292" selection-start-column="47" selection-end-line="292" selection-end-column="47" />
           <folding />
         </state>
       </provider>
