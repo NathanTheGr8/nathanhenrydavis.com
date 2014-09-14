@@ -302,7 +302,7 @@ header {
 
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
 }
 
@@ -377,6 +377,8 @@ header .intro-text .intro-heading {
 
 
 .projects-images {
+    height: 300px;
+    /*
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -384,6 +386,12 @@ header .intro-text .intro-heading {
     border: 7px solid #d3edd3;
     text-align: center;
     color: #fff;
+    */
+
+}
+
+.projects-desciption {
+    text-align: left;
 
 }
 .projects-pad {
@@ -393,7 +401,7 @@ header .intro-text .intro-heading {
 }
 
 .projects-title{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text: #006600;
 
 }
