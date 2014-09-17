@@ -355,8 +355,11 @@ header .intro-text .intro-heading {
 }
 
 .projects-title {
+    background: #f6f9fa;
+    color: #536d76;
+    font-weight: 800;
+    font-family: 'Raleway', Arial, sans-serif;
     text-align: center;
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     line-height: 55px;
     padding-top: 5px;
@@ -364,7 +367,7 @@ header .intro-text .intro-heading {
 
 
 .projects {
-    background-color: #F5F4F4;
+    background: #f6f9fa;
 }
 
 
@@ -385,6 +388,10 @@ header .intro-text .intro-heading {
     color: #999999;
 }
 
+.about-pic {
+    background-color: #999999;
+    overflow: hidden;
+}
 
 .contact{
     background-color: #000000;
