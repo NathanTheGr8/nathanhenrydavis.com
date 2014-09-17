@@ -303,8 +303,7 @@ header {
 
 
 header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-top: 35vh
 }
 
 header .intro-text .intro-lead-in {
@@ -328,14 +327,13 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 40vh;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
         line-height: 40px;
     }
@@ -355,9 +353,6 @@ header .intro-text .intro-heading {
     background-color: #ffffff;
 }
 
-@percent: 1;
-@height: `Math.round( screen.height * @{percent})`;
-
 .padding {
     padding-top: 100vh;
 
@@ -366,9 +361,8 @@ header .intro-text .intro-heading {
 
 
 .projects {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #ffffff;
+    padding-top: 50px;
+    background-color: #F5F4F4;
 }
 
 
@@ -391,16 +385,16 @@ header .intro-text .intro-heading {
     text-align: left;
 
 }
-.projects-pad {
-    background-color: #ffffff;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
 
 .projects-title{
-    padding-bottom: 50px;
-    text: #006600;
+    padding-bottom: 0px;
+    text-align: center;
 
+
+}
+
+.projects-element {
+    height: 300px;
 }
 
 .about {
