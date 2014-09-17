@@ -348,61 +348,35 @@ header .intro-text .intro-heading {
     }
 }
 
-.everything {
-
-    background-color: #ffffff;
-}
 
 .padding {
     padding-top: 100vh;
 
 }
 
+.projects-title {
+    text-align: center;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+    padding-top: 5px;
+}
 
 
 .projects {
-    padding-top: 50px;
     background-color: #F5F4F4;
 }
 
-
-.projects-images {
-    height: 300px;
-
-    /*
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 300px;
-    border: 7px solid #d3edd3;
-    text-align: center;
-    color: #fff;
-    */
-
-}
-
-.projects-desciption {
-    text-align: left;
-
-}
-
-.projects-title{
-    padding-bottom: 0px;
-    text-align: center;
-
-
-}
 
 .projects-element {
     height: 300px;
 }
 
 .about {
-    padding-top: 100px;
+    margin: 0 0 0 0;
     background-color: #F5F4F4;
-
-
 }
+
 .about-text {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
