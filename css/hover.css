@@ -132,19 +132,19 @@ figure.effect-lily p {
     transition: opacity 0.2s, transform 0.35s;
 }
 
-figure.effect-lily:hover figure.effect-lily:focus img,
-figure.effect-lily:hover figure.effect-lily:focus p {
+figure.effect-lily:hover img,
+figure.effect-lily:hover p {
     opacity: 1;
 }
 
-figure.effect-lily:hover figure.effect-lily:focus img,
-figure.effect-lily:hover figure.effect-lily:focus h2,
-figure.effect-lily:hover figure.effect-lily:focus p {
+figure.effect-lily:hover img,
+figure.effect-lily:hover h2,
+figure.effect-lily:hover p {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
 
-figure.effect-lily:hover figure.effect-lily:focus p {
+figure.effect-lily:hover p {
     -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s;
     -webkit-transition-duration: 0.35s;
@@ -198,14 +198,14 @@ figure.effect-sadie p {
     transform: translate3d(0,10px,0);
 }
 
-figure.effect-sadie:hover figure.effect-sadie:focus h2 {
+figure.effect-sadie:hover h2 {
     color: #fff;
     -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
     transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 }
 
-figure.effect-sadie:hover figure.effect-sadie:focus figcaption::before ,
-figure.effect-sadie:hover figure.effect-sadie:focus p {
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -261,14 +261,14 @@ figure.effect-roxy p {
     transform: translate3d(-10px,0,0);
 }
 
-figure.effect-roxy:hover figure.effect-roxy:focus img {
+figure.effect-roxy:hover img {
     opacity: 0.7;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
 
-figure.effect-roxy:hover figure.effect-roxy:focus figcaption::before,
-figure.effect-roxy:hover figure.effect-roxy:focus p {
+figure.effect-roxy:hover figcaption::before,
+figure.effect-roxy:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -288,7 +288,7 @@ figure.effect-bubba img {
     transition: opacity 0.35s;
 }
 
-figure.effect-bubba:hover figure.effect-bubba:focus img {
+figure.effect-bubba:hover img {
     opacity: 0.4;
 }
 
@@ -336,15 +336,15 @@ figure.effect-bubba p {
     transform: translate3d(0,20px,0);
 }
 
-figure.effect-bubba:hover figure.effect-bubba:focus figcaption::before,
-figure.effect-bubba:hover figure.effect-bubba:focus figcaption::after {
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-figure.effect-bubba:hover figure.effect-bubba:focus h2,
-figure.effect-bubba:hover figure.effect-bubba:focus p {
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -366,7 +366,7 @@ figure.effect-romeo img {
     transform: translate3d(0,0,300px);
 }
 
-figure.effect-romeo:hover figure.effect-romeo:focus img {
+figure.effect-romeo:hover img {
     opacity: 0.6;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -387,13 +387,13 @@ figure.effect-romeo figcaption::after {
     transform: translate3d(-50%,-50%,0);
 }
 
-figure.effect-romeo:hover figure.effect-romeo:focus figcaption::before {
+figure.effect-romeo:hover figcaption::before {
     opacity: 0.5;
     -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
     transform: translate3d(-50%,-50%,0) rotate(45deg);
 }
 
-figure.effect-romeo:hover figure.effect-romeo:focus figcaption::after {
+figure.effect-romeo:hover figcaption::after {
     opacity: 0.5;
     -webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
     transform: translate3d(-50%,-50%,0) rotate(-45deg);
@@ -420,12 +420,12 @@ figure.effect-romeo p {
     transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 }
 
-figure.effect-romeo:hover figure.effect-romeo:focus h2 {
+figure.effect-romeo:hover h2 {
     -webkit-transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
     transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 }
 
-figure.effect-romeo:hover figure.effect-romeo:focus p {
+figure.effect-romeo:hover p {
     -webkit-transform: translate3d(0,-50%,0) translate3d(0,100%,0);
     transform: translate3d(0,-50%,0) translate3d(0,100%,0);
 }
