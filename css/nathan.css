@@ -443,9 +443,12 @@ header .intro-text .intro-heading {
         padding-bottom: 0px;
     }
 }
+
+
 .about-pic {
     background-color: #999999;
     overflow: hidden;
+    padding: 0px;
 }
 
 .contact{
