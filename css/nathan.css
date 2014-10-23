@@ -193,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000000;
+    background-color: #1A1A1A;
 }
 
 .navbar-default .navbar-brand {
@@ -275,7 +275,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #000000;
+        background-color: #1A1A1A;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -452,7 +452,7 @@ header .intro-text .intro-heading {
 }
 
 .contact{
-    background-color: #000000;
+    background-color: #1A1A1A;
     padding-bottom: 50px;
     padding-top: 50px;
 }
