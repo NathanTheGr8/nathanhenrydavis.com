@@ -1,0 +1,349 @@
+@import 'hover';
+@import 'bootstrap3.2';
+
+
+$base-color: #006600;
+$light-color: lighten($base-color, 10%);
+$dark-color: darken($base-color, 10%);
+$black: #1A1A1A;
+$off-white: #f6f9fa;
+$grey: #999999;
+$text-color: #536d76;
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.text-primary {
+  color: $base-color;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75;
+  &.large {
+    font-size: 16px;
+  }
+}
+
+a {
+  outline: 0;
+  &:hover, &:focus, &:active, &.active {
+    outline: 0;
+  }
+  color: $base-color;
+  &:hover, &:focus, &:active, &.active {
+    color: $light-color;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+.navbar-default {
+  border-color: transparent;
+  background-color: $black;
+  .navbar-brand {
+    font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, cursive;
+    color: #ffffff;
+    &:hover, &:focus, &:active, &.active {
+      color: $light-color;
+    }
+  }
+  .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+  }
+  .navbar-toggle {
+    border-color: $base-color;
+    background-color: $base-color;
+    .icon-bar {
+      background-color: $off-white;
+    }
+    &:hover, &:focus {
+      background-color: $base-color;
+    }
+  }
+  .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    &:hover, &:focus {
+      outline: 0;
+      color: $base-color;
+    }
+  }
+  .navbar-nav > .active > a {
+    border-radius: 0;
+    color: #fff;
+    background-color: $base-color;
+    &:hover, &:focus {
+      color: #fff;
+      background-color: $light-color;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: transparent;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav > .active > a {
+      border-radius: 3px;
+    }
+    &.navbar-shrink {
+      padding: 10px 0;
+      background-color: $black;
+      .navbar-brand {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(../Pictures/Cover.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  .intro-text {
+    padding-top: 40vh;
+    .intro-lead-in {
+      margin-bottom: 25px;
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      color: #ffffff;
+    }
+    .intro-heading {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../Pictures/Cover.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    .intro-text {
+      padding-top: 40vh;
+      .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 35px;
+        font-style: italic;
+        line-height: 40px;
+      }
+      .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  position: absolute;
+  width: 100%;
+  background: $off-white;
+  top: 100%;
+}
+
+.projects-title {
+  background: $off-white;
+  color: $text-color;
+  font-weight: 800;
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  line-height: 55px;
+  padding-top: 5px;
+}
+
+.projects {
+  background: $off-white;
+}
+
+.projects-element {
+  height: 300px;
+}
+
+.about {
+  margin: 0 0 0 0;
+  background: $off-white;
+}
+
+.about-text {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  color: $text-color;
+}
+
+.about-title {
+  color: $text-color;
+  font-weight: 800;
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: left;
+  font-size: 35px;
+  line-height: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .about-title {
+    color: $text-color;
+    font-weight: 800;
+    font-family: "Raleway", Arial, sans-serif;
+    text-align: left;
+    font-size: 42px;
+    line-height: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.about-pic {
+  background-color: $grey;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.contact {
+  background-color: $black;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.contact-text {
+  color: $grey;
+}
+
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+  }
+  ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+  }
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: $off-white;
+    background-color: $grey;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    &:hover, &:focus, &:active {
+      background-color: $base-color;
+    }
+  }
+}
+
+.btn {
+  &:focus, &:active, &.active, &:active:focus {
+    outline: 0;
+  }
+}
+
+::-moz-selection, ::selection {
+  text-shadow: none;
+  background: $base-color;
+}
+
+img {
+  &::selection, &::-moz-selection {
+    background: 0 0;
+  }
+}
+
+body {
+  webkit-tap-highlight-color: $base-color;
+}
