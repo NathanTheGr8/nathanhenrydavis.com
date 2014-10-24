@@ -6284,11 +6284,6 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
-.vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none; }
-
 html {
   margin: 0;
   padding: 0; }
@@ -6298,9 +6293,6 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0; }
-
-.text-muted {
-  color: #777; }
 
 .text-primary {
   color: #006600; }
@@ -6341,7 +6333,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #006600;
     background-color: #006600; }
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #fff; }
+      background-color: #f6f9fa; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
       background-color: #006600; }
   .navbar-default .nav li a {
@@ -6390,7 +6382,7 @@ header {
   padding: 0;
   margin: 0;
   text-align: center;
-  color: #fff;
+  color: #f6f9fa;
   background-attachment: scroll;
   background-image: url(../Pictures/Cover.jpg);
   background-position: center center;
@@ -6407,7 +6399,7 @@ header {
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
-      color: #ffffff; }
+      color: #f6f9fa; }
     header .intro-text .intro-heading {
       margin-bottom: 25px;
       text-transform: uppercase;
@@ -6415,7 +6407,7 @@ header {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      color: #ffffff; }
+      color: #f6f9fa; }
 
 @media (min-width: 768px) {
   header {
@@ -6427,7 +6419,7 @@ header {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: #fff;
+    color: #f6f9fa;
     background-attachment: scroll;
     background-image: url(../Pictures/Cover.jpg);
     background-position: center center;
@@ -6542,7 +6534,7 @@ ul.social-buttons {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
+    color: #f6f9fa;
     background-color: #999999;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;

@@ -137,7 +137,7 @@ header {
   padding: 0;
   margin: 0;
   text-align: center;
-  color: #fff;
+  color: $off-white;
   background-attachment: scroll;
   background-image: url(../Pictures/Cover.jpg);
   background-position: center center;
@@ -154,7 +154,7 @@ header {
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
-      color: #ffffff;
+      color: $off-white;
     }
     .intro-heading {
       margin-bottom: 25px;
@@ -163,7 +163,7 @@ header {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
-      color: #ffffff;
+      color: $off-white;
     }
   }
 }
@@ -178,7 +178,7 @@ header {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: #fff;
+    color: $off-white;
     background-attachment: scroll;
     background-image: url(../Pictures/Cover.jpg);
     background-position: center center;
