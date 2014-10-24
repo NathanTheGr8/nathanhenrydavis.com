@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     &:hover, &:focus {
       outline: 0;
-      color: $base-color;
+      color: $light-color;
     }
   }
   .navbar-nav > .active > a {
@@ -288,23 +288,6 @@ header {
 }
 
 
-footer {
-  padding: 25px 0;
-  text-align: center;
-  span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 40px;
-  }
-  ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 40px;
-  }
-}
 
 ul.social-buttons {
   margin-bottom: 0;
@@ -340,7 +323,7 @@ ul.social-buttons {
 
 img {
   &::selection, &::-moz-selection {
-    background: 0 0;
+    background: $base-color;
   }
 }
 

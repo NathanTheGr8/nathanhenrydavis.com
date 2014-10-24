@@ -6344,7 +6344,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff; }
     .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
       outline: 0;
-      color: #006600; }
+      color: #009900; }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #fff;
@@ -6509,21 +6509,6 @@ header {
 .contact-text {
   color: #999999; }
 
-footer {
-  padding: 25px 0;
-  text-align: center; }
-  footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 40px; }
-  footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 40px; }
-
 ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {
@@ -6550,7 +6535,7 @@ ul.social-buttons {
   background: #006600; }
 
 img::selection, img::-moz-selection {
-  background: 0 0; }
+  background: #006600; }
 
 body {
   webkit-tap-highlight-color: #006600; }
